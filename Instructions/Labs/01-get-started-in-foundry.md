@@ -9,7 +9,9 @@ lab:
 
 # Get started with agent development in Microsoft Foundry
 
-In this lab, we'll explore some basic concepts and then get you started quickly creating your own agent. At any point, I'm here to help - you can use the *Ask Anton* chat interface on the left to ask me about AI concepts and Microsoft Foundry.
+In this lab, we'll quickly explore some basic concepts about generative AI and agents, and then get you started creating your own agent.
+
+> **Tip**: At any point, you can use the *Ask Anton* chat interface on the left to ask about AI concepts and Microsoft Foundry.
 
 This lab should take approximately **30** minutes to complete.
 
@@ -24,6 +26,8 @@ Before creating an agent, let's set some context about *generative* AI and how i
 {% endcapture %}
 
 {% capture conceptual_overview_text %}
+### Generative AI
+
 *Generative AI* is a branch of AI that enables software applications to generate new content; often natural language dialogs, but also images, video, code, and other formats.
 
 For example, a computing history web site could provide a generative AI chat interface into which users can enter questions about key figures, technologies, and events in the history of computing.
@@ -32,9 +36,7 @@ For example, a computing history web site could provide a generative AI chat int
 
 The ability to chat with the site and have it generate original responses to questions creates a compelling interactive experience for users.
 
-## How does generative AI work?
-
-The ability to generate content is based on a *language model*, which has been trained with huge volumes of data - often documents from the Internet or other public sources of information.
+Generative AI is based on *Large language models* (LLMs), which are models that have  been trained with huge volumes of data - often documents from the Internet or other public sources of information.
 
 ![Diagram of a generative AI application in which a user chats with a language model.](./media/generative-ai.png)
 
@@ -45,8 +47,6 @@ Generative AI models encapsulate *semantic* relationships between language eleme
 ### Agents
 
 Agents are software applications built on generative AI that can reason over and generate natural language, automate tasks by using tools, and respond to contextual conditions to take appropriate action.
-
-## Components of an AI agent
 
 ![Diagram of an agent with a model, instructions, and tools.](./media/agent.png)
 
