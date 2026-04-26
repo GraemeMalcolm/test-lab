@@ -11,5 +11,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jemoji
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
 title: Develop an AI Agent
