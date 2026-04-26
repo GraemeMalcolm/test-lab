@@ -42,7 +42,23 @@ Users interact with generative AI language models through *prompts* - natural la
 
 Generative AI models encapsulate *semantic* relationships between language elements (that's a fancy way of saying that the models "know" how words relate to one another), and that's what enables them to generate a meaningful sequence of text.
 
-There are *large language models* (LLMs) and *small language models* (SLMs) - the difference is based on the volume of data and the number of variables in the model. LLMs are powerful and generalize well, but can be more costly to train and use. SLMs tend to work well in scenarios that are more focused on specific topic areas or that require easily deployed small models for local applications and agents on devices.
+### Agents
+
+Agents are software applications built on generative AI that can reason over and generate natural language, automate tasks by using tools, and respond to contextual conditions to take appropriate action.
+
+## Components of an AI agent
+
+![Diagram of an agent with a model, instructions, and tools.](./media/agent.png)
+
+AI agents have three key elements:
+
+- **A large language model**: This is the agent's brain; using generative AI for language understanding and reasoning.
+- **Instructions**: A system prompt that defines the agent’s role and behavior. Think of it as the agent’s job description.
+- **Tools**: These are what the agent uses to interact with the world. Tools can include:
+  - *Knowledge* tools that provide access to information, like search engines or databases.
+  - *Action* tools that enable the agent to perform tasks, such as sending emails, updating calendars, or controlling devices.
+
+With these capabilities, AI agents can take on the role of digital assistants that intelligently automate tasks and collaborate with you to work smarter and more efficiently.
 {% endcapture %}
 
 {% include lab-tabbed-video-text.html id="concept-overview" aria_label="Conceptual overview content" video_html=conceptual_overview_video text_markdown=conceptual_overview_text %}
