@@ -1,5 +1,5 @@
 # Test Lab
 
-This repo contains exercises and supporting files for Microsoft skilling content.
+This repo contains a proof of concept for an "all-in-one" interactive lab experience.
 
 
