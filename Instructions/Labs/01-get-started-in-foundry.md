@@ -9,11 +9,7 @@ lab:
 
 # Get started with agent development in Microsoft Foundry
 
-In this lab, we'll explore some basic concepts and then get you started quickly creating your own agent. 
-
-> ![Picture of Anton](./media/anton-icon.png)
-> I'm Anton. Your guide to developing AI apps and agents!
-> You can use the *Ask Anton* chat interface on the left to ask me about AI concepts and Microsoft Foundry.
+In this lab, we'll explore some basic concepts and then get you started quickly creating your own agent. At any point, I'm here to help - you can use the *Ask Anton* chat interface on the left to ask me about AI concepts and Microsoft Foundry.
 
 This lab should take approximately **30** minutes to complete.
 
