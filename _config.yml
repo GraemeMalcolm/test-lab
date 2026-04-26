@@ -1,0 +1,15 @@
+remote_theme: GraemeMalcolm/Jekyll-Theme
+exclude:
+  - readme.md
+  - .github/
+header_pages:
+  - index.html
+author: Graeme Malcolm
+twitter_username: graememalcolm
+github_username:  GraemeMalcolm
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+markdown: GFM
+title: Lab Exercises
