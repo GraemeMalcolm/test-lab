@@ -9,18 +9,9 @@ lab:
 
 # Get started with agent development in Microsoft Foundry
 
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
-    <tbody>
-        <tr>
-            <td style="width: 96px; vertical-align: top; padding-right: 12px;">
-                <img src="./media/anton-icon.png" alt="Picture of Anton." style="display: block; max-width: 80px; height: auto;" />
-            </td>
-            <td style="vertical-align: top; overflow-wrap: anywhere; word-break: normal;">
-                <p>Hi! I'm Anton, and I'll be your guide to getting started with agent development in Microsoft Foundry. In this lab, we'll explore some basic concepts and then get you started quickly creating your own agent. At any point, I'm here to help - you can use the <em>Ask Anton</em> chat interface on the left to ask me about AI concepts and Microsoft Foundry.</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+In this lab, we'll explore some basic concepts and then get you started quickly creating your own agent. 
+
+> **Tip**: You can use the *Ask Anton* chat interface on the left to ask me about AI concepts and Microsoft Foundry.
 
 This lab should take approximately **30** minutes to complete.
 
