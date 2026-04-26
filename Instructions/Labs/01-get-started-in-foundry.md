@@ -15,8 +15,10 @@ In this exercise, you'll use Microsoft Foundry to start developing an AI agent t
 
 This exercise should take approximately **20** minutes to complete.
 
-<div class="embeddedvideo"><iframe src="https://learn-video.azurefd.net/vod/player?id=834bbf13-bf7b-4cd5-b8c5-3978f56cf887&amp;locale=en-us&amp;embedUrl=%2Ftraining%2Fmodules%2Fget-started-ai-fundamentals%2F2-generative-ai" frameborder="0" allowfullscreen="true" data-linktype="external" title="Video Player"></iframe></div>
 
+<video controls src="https://share.synthesia.io/904e700e-4549-42ac-8056-7e4dfd505966" title="Generative AI and Agents" width="600">
+    <track src="./media/AIconcepts02.vtt" kind="captions" srclang="en" label="English">
+</video>
 
 ## Create a Microsoft Foundry project
 

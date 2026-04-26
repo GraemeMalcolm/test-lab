@@ -1,0 +1,140 @@
+WEBVTT
+
+STYLE
+::cue {
+    color: white;
+    background-color: #383943A3;
+}
+
+00:00:00.600 --> 00:00:07.559
+At its core, AI is about building software applications
+that, at least in some aspects, mimic human behaviors
+
+00:00:07.559 --> 00:00:08.622
+and capabilities.
+
+00:00:08.872 --> 00:00:12.483
+So let's start with that most human of activities,
+having a chat.
+
+00:00:14.283 --> 00:00:21.162
+Here's a chat application that I can use to find information
+about the history of computing, such as, who was Ada
+
+00:00:21.162 --> 00:00:21.945
+Lovelace?
+
+00:00:24.195 --> 00:00:26.807
+And I get a comprehensive and relevant response.
+
+00:00:27.057 --> 00:00:31.829
+Okay, let's continue the conversation and find out
+more about her work with Charles Babbage.
+
+00:00:36.579 --> 00:00:42.047
+And the model understands the context of a follow-up
+prompt and responds with more information.
+
+00:00:43.848 --> 00:00:45.926
+So, how does generative AI work?
+
+00:00:46.326 --> 00:00:47.556
+Let's take a closer look.
+
+00:00:48.756 --> 00:00:54.595
+We start by collecting a large volume of text; which
+we'll break down into individual text tokens and use
+
+00:00:54.595 --> 00:00:56.325
+to train a large language model.
+
+00:00:56.475 --> 00:01:00.434
+The model encapsulates the semantic relationships
+between the tokens.
+
+00:01:00.684 --> 00:01:06.524
+So it can predict likely sequences of text; for example
+to respond to a message in a chat app.
+
+00:01:07.074 --> 00:01:13.234
+Users engage with the model through the chat app by
+submitting prompts: natural language statements or
+
+00:01:13.234 --> 00:01:13.715
+questions.
+
+00:01:13.965 --> 00:01:19.573
+And the model responds by generating a sequence of
+tokens to complete the conversational dialog.
+
+00:01:21.373 --> 00:01:27.372
+Generative AI solutions like this enable us to build
+intelligent AI agents that can conduct conversations
+
+00:01:27.372 --> 00:01:30.080
+and even perform actions on our behalf.
+
+00:01:31.281 --> 00:01:36.691
+An agent, is an AI application that can operate autonomously
+by using three key things.
+
+00:01:36.941 --> 00:01:43.421
+First, a large language model, which acts as the agent's
+brain; enabling it to understand language and reason
+
+00:01:43.421 --> 00:01:47.413
+about how to respond to user requests or environmental
+conditions.
+
+00:01:47.663 --> 00:01:52.353
+Second, an agent has instructions to scope its behavior
+and responsibilities.
+
+00:01:52.503 --> 00:01:55.185
+Think of this as the agent's job description.
+
+00:01:55.435 --> 00:02:01.915
+And finally, most agents have tools; which enable
+them to access the information they need, or use external
+
+00:02:01.915 --> 00:02:03.400
+systems to perform tasks.
+
+00:02:03.850 --> 00:02:09.666
+Users can engage with agents through prompts, for
+example to get help with finding a particular product.
+
+00:02:09.916 --> 00:02:15.676
+The agent can use its tools to perform tasks like
+searching the web, and placing an order for the required
+
+00:02:15.676 --> 00:02:16.104
+item.
+
+00:02:16.354 --> 00:02:18.769
+And finally, report back to the user.
+
+00:02:21.970 --> 00:02:27.169
+In the computing history application, I can see the
+agent settings, including a model, instructions, and
+
+00:02:27.169 --> 00:02:29.191
+a tool that enables it to search the web.
+
+00:02:29.441 --> 00:02:36.801
+So I can task the agent with sourcing some parts that
+I need for a PC restoration project, and it will search
+
+00:02:36.801 --> 00:02:38.334
+for what I need on the web.
+
+00:02:41.084 --> 00:02:46.251
+And now that the agent has done the legwork for me,
+I can go ahead and buy the part I need - sweet!
+
+00:02:48.201 --> 00:02:53.880
+Generative AI apps and agents are at the heart of
+modern AI solutions and are driving the development
+
+00:02:53.880 --> 00:02:56.653
+of amazing new AI-powered capabilities.
