@@ -1,4 +1,4 @@
-# Lab Exercise Test
+# Lab Exercise
 <!-- Change the title above as appropriate -->
 
 <!-- Review the notes in the index.md file to set up the repo for GitHub Pages -->
