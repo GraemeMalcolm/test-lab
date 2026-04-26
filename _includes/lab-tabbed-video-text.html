@@ -1,0 +1,16 @@
+{% assign tab_id = include.id | default: "lab-tabs" %}
+
+<div class="lab-tabs" data-tabs id="{{ tab_id }}">
+  <div class="lab-tab-list" role="tablist" aria-label="{{ include.aria_label | default: 'Tabbed content' }}">
+    <button id="{{ tab_id }}-video-tab" class="lab-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="{{ tab_id }}-video-panel" data-tab-target="{{ tab_id }}-video-panel">{{ include.video_label | default: "Video" }}</button>
+    <button id="{{ tab_id }}-text-tab" class="lab-tab" type="button" role="tab" aria-selected="false" aria-controls="{{ tab_id }}-text-panel" data-tab-target="{{ tab_id }}-text-panel">{{ include.text_label | default: "Text" }}</button>
+  </div>
+
+  <div id="{{ tab_id }}-video-panel" class="lab-tab-panel" role="tabpanel" aria-labelledby="{{ tab_id }}-video-tab">
+    {{ include.video_html }}
+  </div>
+
+  <div id="{{ tab_id }}-text-panel" class="lab-tab-panel" role="tabpanel" aria-labelledby="{{ tab_id }}-text-tab" hidden>
+    {{ include.text_markdown | markdownify }}
+  </div>
+</div>

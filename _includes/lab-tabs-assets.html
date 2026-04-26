@@ -1,0 +1,71 @@
+<style>
+  .lab-tab-list {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #d0d7de;
+  }
+
+  .lab-tab {
+    padding: 0.5rem 0.9rem;
+    border: 1px solid transparent;
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: transparent;
+    color: #24292f;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .lab-tab:hover {
+    background: #f6f8fa;
+  }
+
+  .lab-tab.is-active {
+    background: #ffffff;
+    border-color: #d0d7de;
+    color: #0969da;
+    font-weight: 600;
+  }
+</style>
+
+<script>
+  if (!window.__labTabsBound) {
+    window.__labTabsBound = true;
+
+    document.addEventListener("click", function (event) {
+      var tab = event.target.closest("[data-tab-target]");
+      if (!tab) {
+        return;
+      }
+
+      var tabContainer = tab.closest("[data-tabs]");
+      if (!tabContainer) {
+        return;
+      }
+
+      var tabs = tabContainer.querySelectorAll("[role='tab']");
+      var targetId = tab.getAttribute("data-tab-target");
+
+      tabs.forEach(function (t) {
+        var panelId = t.getAttribute("aria-controls");
+        var panel = tabContainer.querySelector("#" + panelId);
+
+        t.classList.remove("is-active");
+        t.setAttribute("aria-selected", "false");
+
+        if (panel) {
+          panel.hidden = true;
+        }
+      });
+
+      tab.classList.add("is-active");
+      tab.setAttribute("aria-selected", "true");
+
+      var targetPanel = tabContainer.querySelector("#" + targetId);
+      if (targetPanel) {
+        targetPanel.hidden = false;
+      }
+    });
+  }
+</script>

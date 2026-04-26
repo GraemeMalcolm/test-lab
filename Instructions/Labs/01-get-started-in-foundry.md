@@ -9,13 +9,25 @@ lab:
 
 # Get started with agent development in Microsoft Foundry
 
-<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080; width: 100%; max-width: 800px;"><iframe src="https://share.synthesia.io/embeds/videos/904e700e-4549-42ac-8056-7e4dfd505966" loading="lazy" title="Synthesia video player - AI Concepts 02" allowfullscreen allow="encrypted-media; fullscreen; microphone; screen-wake-lock;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
-
 In this exercise, you'll use Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
 
 > **Note**: Many components of Microsoft Foundry, including the Microsoft Foundry portal, are subject to continual development. This reflects the fast-moving nature of artificial intelligence technology. Some elements of your user experience may differ from the images and descriptions in this exercise!
 
 This exercise should take approximately **20** minutes to complete.
+
+## Conceptual overview: Generative AI and agents
+
+{% include lab-tabs-assets.html %}
+
+{% capture conceptual_overview_video %}
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080; width: 100%; max-width: 800px;"><iframe src="https://share.synthesia.io/embeds/videos/904e700e-4549-42ac-8056-7e4dfd505966" loading="lazy" title="Synthesia video player - AI Concepts 02" allowfullscreen allow="encrypted-media; fullscreen; microphone; screen-wake-lock;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+{% endcapture %}
+
+{% capture conceptual_overview_text %}
+Add your text-based conceptual overview content here.
+{% endcapture %}
+
+{% include lab-tabbed-video-text.html id="concept-overview" aria_label="Conceptual overview content" video_html=conceptual_overview_video text_markdown=conceptual_overview_text %}
 
 ## Create a Microsoft Foundry project
 
