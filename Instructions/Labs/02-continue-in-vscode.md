@@ -9,6 +9,8 @@ lab:
 
 # Continue developing your agent in Visual Studio Code
 
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080; width: 100%; max-width: 800px;"><iframe src="https://share.synthesia.io/embeds/videos/e4dd3172-8749-40d1-a009-d4c521424dc7" loading="lazy" title="Synthesia video player - 05_Prepare_AI_Dev" allowfullscreen allow="encrypted-media; fullscreen; microphone; screen-wake-lock;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+
 In the previous exercise, used Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
 
 Now you're ready to continue developing your agent using the Foundry integration features of Visual Studio Code.
