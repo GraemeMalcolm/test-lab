@@ -9,6 +9,18 @@ lab:
 
 # Continue developing your agent in Visual Studio Code
 
+In the previous lab, you used Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
+
+Now you're ready to continue developing your agent using the Foundry integration features of Visual Studio Code.
+
+> **Tip**: At any point, you can use the *Ask Anton* chat interface on the left to ask about AI concepts and Microsoft Foundry.
+
+This lab should take approximately **30** minutes to complete.
+
+## Conceptual overview: Visual Studio Code and Microoft Foundry
+
+Let's start by exploring some of the ways that Visual Studio Code empowers developers to create AI agents in Microsoft Foundry.
+
 {% include lab-tabs-assets.html %}
 
 {% capture vscode_overview_video %}
@@ -16,18 +28,23 @@ lab:
 {% endcapture %}
 
 {% capture vscode_overview_text %}
-Add your text-based overview content here.
+
+Text content for VS Code goes here.
+
 {% endcapture %}
 
 {% include lab-tabbed-video-text.html id="vscode-overview" aria_label="Overview content" video_html=vscode_overview_video text_markdown=vscode_overview_text %}
 
-In the previous exercise, used Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
+## Exercise: Continue developing your agent in Visual Studio Code
 
-Now you're ready to continue developing your agent using the Foundry integration features of Visual Studio Code.
+{% capture vscode_hosted_markdown %}
 
-This exercise should take approximately **20** minutes to complete.
+Hosted lab link here.
 
-## Install the Foundry Toolkit extension for Visual Studio Code
+{% endcapture %}
+
+{% capture vscode_own_setup_markdown %}
+### Install the Foundry Toolkit extension for Visual Studio Code
 
 The Foundry Toolkit extension for Visual Studio Code brings the assets in your Foundry projects right into the development environment.
 
@@ -40,7 +57,7 @@ The Foundry Toolkit extension for Visual Studio Code brings the assets in your F
 
 1. In the Foundry Toolkit pane, expand **Microsoft Foundry Resources** and set the default project by connecting to Azure (signing in with your credentials) and selecting the Foundry project you created previously.
 
-## Connect to your agent
+### Connect to your agent
 
 Now that you have a connection to your Foundry project, you can access the assets you've created in it - including the *computing-history* agent you created in the previous exercise.
 
@@ -50,7 +67,7 @@ Now that you have a connection to your Foundry project, you can access the asset
 
     ![Screenshot of the Agent Builder in Visual Studio Code.](./media/vs-code-playground.png)
 
-## Write code to test your agent
+### Write code to test your agent
 
 While you can use the graphical interface in the Foundry Portal and the Foundry Extension in Visual Studio code to develop and test an agent, eventually you'll want to write and test code. You can use the Azure AI Projects SDK and the OpenAI Responses API to do so.
 
@@ -129,7 +146,7 @@ While you can use the graphical interface in the Foundry Portal and the Foundry 
 
     ![Screenshot of a terminal with code output in Visual Studio Code.](./media/vs-code-run-agent.png)
 
-## Use GitHub Copilot to expand your code
+### Use GitHub Copilot to expand your code
 
 GitHub Copilot provides agentic AI assistance in Visual Studio Code, helping you develop applications more efficiently.
 
@@ -166,6 +183,10 @@ GitHub Copilot provides agentic AI assistance in Visual Studio Code, helping you
     When you're finished, enter `quit`.
 
 1. If you're happy with the code that GitHub Copilot has generated, use the **Keep** button in the **Chat** pane to confirm the changes.
+{% endcapture %}
+
+{% assign vscode_hosted_html = vscode_hosted_markdown | markdownify %}
+{% include lab-tabbed-video-text.html id="vscode-exercise" aria_label="Exercise workflow options" video_label="Hosted Lab" text_label="Use your own setup" video_html=vscode_hosted_html text_markdown=vscode_own_setup_markdown %}
 
 ## Summary
 

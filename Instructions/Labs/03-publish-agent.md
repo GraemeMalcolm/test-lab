@@ -9,13 +9,16 @@ lab:
 
 # Publish and use your agent
 
-In the previous exercises, used Microsoft Foundry and Visual Studio code to develop a computing history agent.
+## Exercise: Publish and use your agent
+
+{% capture publish_hosted_markdown %}
+In the previous exercises, you used Microsoft Foundry and Visual Studio Code to develop a computing history agent.
 
 Now you're ready to publish the agent to its own endpoint, and consume it in an application.
 
 This exercise should take approximately **20** minutes to complete.
 
-## Publish your agent
+### Publish your agent
 
 So far you've developed and tested your agent within a Foundry project. To take it into production, you need to publish it to a dedicated endpoint from which client applications can consume it.
 
@@ -30,7 +33,7 @@ So far you've developed and tested your agent within a Foundry project. To take 
 
     > **Tip**: You can view the published agent details in the **Publish** drop-down list at any time.
 
-## Configure a client application in Visual Studio Code
+### Configure a client application in Visual Studio Code
 
 A partially completed client application for your agent has been provided. You'll complete this app and test it with your agent endpoint.
 
@@ -66,7 +69,7 @@ A partially completed client application for your agent has been provided. You'l
 1. In the **Explorer** pane, in the **/computer-history-client** folder, select the **.env** file to open it. Then update the configuration values to replace *your_agent_endpoint_url* with the **Responses API endpoint** for your published agent.
 1. Save the updated **.env** file.
 
-## Add code to interact with your agent
+### Add code to interact with your agent
 
 Now you're ready to implement the code that will submit prompts to your agent.
 
@@ -110,7 +113,7 @@ Now you're ready to implement the code that will submit prompts to your agent.
 1. Read through the rest of the code, using the comments to understand the technique of tracking user inputs and responses in a conversation history.
 1. Save the updated **agent_client.py** file.
 
-## Run the client application
+### Run the client application
 
 Now you're ready to test the app with your agent.
 
@@ -138,6 +141,31 @@ Now you're ready to test the app with your agent.
 1. Enter a prompt, such as `What was ENIAC?` and view the response.
 1. Follow up with a second prompt, such as `How does it compare with COLOSSUS?`
 1. When you're finished testing the app, in the terminal pane, enter **CTRL+C** to stop the local web server.
+{% endcapture %}
+
+{% capture publish_own_setup_markdown %}
+Use this tab if you prefer to follow the same workflow with your own environment, subscription choices, and local tooling setup.
+
+### Suggested adaptations
+
+- Use your preferred Azure subscription, resource group naming conventions, and region choices.
+- Choose your preferred programming language and framework for the client application.
+- Follow your organization's governance requirements for agent deployment, authentication, and API management.
+
+### Keep parity with hosted lab outcomes
+
+By the end of this section, you should still be able to:
+
+- Publish an agent from Microsoft Foundry to a production endpoint.
+- Configure a client application to authenticate and connect to your agent endpoint.
+- Submit prompts to your agent and display responses in an application.
+- Manage conversation history in a multi-turn interaction.
+
+If you're unsure how to adapt a specific step, use the *Ask Anton* panel for guidance.
+{% endcapture %}
+
+{% assign publish_hosted_html = publish_hosted_markdown | markdownify %}
+{% include lab-tabbed-video-text.html id="publish-exercise" aria_label="Exercise workflow options" video_label="Hosted Lab" text_label="Use your own setup" video_html=publish_hosted_html text_markdown=publish_own_setup_markdown %}
 
 ## Summary
 

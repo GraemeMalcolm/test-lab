@@ -63,12 +63,20 @@ With these capabilities, AI agents can take on the role of digital assistants th
 
 {% include lab-tabbed-video-text.html id="concept-overview" aria_label="Conceptual overview content" video_html=conceptual_overview_video text_markdown=conceptual_overview_text %}
 
+
 ## Exercise: Create an agent with Microsoft Foundry
 
 Now it's your turn. In this exercise, you'll use Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
 
 > **Note**: Many components of Microsoft Foundry, including the Microsoft Foundry portal, are subject to continual development. This reflects the fast-moving nature of artificial intelligence technology. Some elements of your user experience may differ from the images and descriptions in this exercise!
 
+{% capture hosted_lab_markdown %}
+
+Hosted lab link here.
+
+{% endcapture %}
+
+{% capture own_setup_markdown %}
 ### Create a Microsoft Foundry project
 
 Microsoft Foundry uses *projects* to organize models, resources, data, and other assets used to develop an AI solution.
@@ -207,6 +215,10 @@ Now you have a working agent, you can preview it in a basic web chat application
 1. Enter a prompt, such as `What can you tell me about the Altair 8800?` and view the response from your agent.
 
     ![Screenshot of an agent preview chat interface.](./media/agent-preview.png)
+{% endcapture %}
+
+{% assign hosted_lab_html = hosted_lab_markdown | markdownify %}
+{% include lab-tabbed-video-text.html id="exercise-workflow" aria_label="Exercise workflow options" video_label="Hosted Lab" text_label="Use your own setup" video_html=hosted_lab_html text_markdown=own_setup_markdown %}
 
 ## Summary
 
