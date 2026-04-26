@@ -17,6 +17,8 @@ This exercise should take approximately **20** minutes to complete.
 
 ## Conceptual overview: Generative AI and agents
 
+Before creating an agent, let's set some context about *generative* AI and how it relates to *agentic* AI.
+
 {% include lab-tabs-assets.html %}
 
 {% capture conceptual_overview_video %}
