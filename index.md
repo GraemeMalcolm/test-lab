@@ -1,5 +1,5 @@
 ---
-title: Exercise Instructions
+title: Develop an AI Agent
 permalink: index.html
 layout: home
 ---
