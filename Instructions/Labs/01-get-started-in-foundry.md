@@ -9,11 +9,16 @@ lab:
 
 # Get started with agent development in Microsoft Foundry
 
-In this exercise, you'll use Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
+<table>
+    <tr>
+        <td style="width: 96px; vertical-align: top;">
+            <img src=".\media\anton-icon.png" alt="Picture of Anton." style="max-width: 80px; height: auto;" />
+        </td>
+        <td markdown="1">Hi! I'm Anton, and I'll be your guide to getting started with agent development in Microsoft Foundry. In this lab, we'll explore some basic concepts and then get you started quickly creating your own agent. At any point, I'm here to help - you can use the *Ask Anton* chat interface on the left to ask me about AI concepts and Microsoft Foundry.</td>
+    </tr>
+</table>
 
-> **Note**: Many components of Microsoft Foundry, including the Microsoft Foundry portal, are subject to continual development. This reflects the fast-moving nature of artificial intelligence technology. Some elements of your user experience may differ from the images and descriptions in this exercise!
-
-This exercise should take approximately **20** minutes to complete.
+This lab should take approximately **30** minutes to complete.
 
 ## Conceptual overview: Generative AI and agents
 
@@ -26,12 +31,36 @@ Before creating an agent, let's set some context about *generative* AI and how i
 {% endcapture %}
 
 {% capture conceptual_overview_text %}
-Add your text-based conceptual overview content here.
+*Generative AI* is a branch of AI that enables software applications to generate new content; often natural language dialogs, but also images, video, code, and other formats.
+
+For example, a computing history web site could provide a generative AI chat interface into which users can enter questions about key figures, technologies, and events in the history of computing.
+
+![Screenshot of a computing history chat interface.](./media/computing-history-chat.png)
+
+The ability to chat with the site and have it generate original responses to questions creates a compelling interactive experience for users.
+
+## How does generative AI work?
+
+The ability to generate content is based on a *language model*, which has been trained with huge volumes of data - often documents from the Internet or other public sources of information.
+
+![Diagram of a generative AI application in which a user chats with a language model.](./media/generative-ai.png)
+
+Users interact with generative AI language models through *prompts* - natural language statements of questions. The language model in a generative AI solution uses the prompt to initiate the generation of a meaningful response.
+
+Generative AI models encapsulate *semantic* relationships between language elements (that's a fancy way of saying that the models "know" how words relate to one another), and that's what enables them to generate a meaningful sequence of text.
+
+There are *large language models* (LLMs) and *small language models* (SLMs) - the difference is based on the volume of data and the number of variables in the model. LLMs are powerful and generalize well, but can be more costly to train and use. SLMs tend to work well in scenarios that are more focused on specific topic areas or that require easily deployed small models for local applications and agents on devices.
 {% endcapture %}
 
 {% include lab-tabbed-video-text.html id="concept-overview" aria_label="Conceptual overview content" video_html=conceptual_overview_video text_markdown=conceptual_overview_text %}
 
-## Create a Microsoft Foundry project
+## Exercise: Create an agent with Microsoft Foundry
+
+Now it's your turn. In this exercise, you'll use Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
+
+> **Note**: Many components of Microsoft Foundry, including the Microsoft Foundry portal, are subject to continual development. This reflects the fast-moving nature of artificial intelligence technology. Some elements of your user experience may differ from the images and descriptions in this exercise!
+
+### Create a Microsoft Foundry project
 
 Microsoft Foundry uses *projects* to organize models, resources, data, and other assets used to develop an AI solution.
 
@@ -47,7 +76,7 @@ Microsoft Foundry uses *projects* to organize models, resources, data, and other
 
     ![Screenshot of the Foundry project home page.](./media/foundry-portal-home.png)
 
-## Deploy a model
+### Deploy a model
 
 At the heart of every AI agent, there's a large language model (LLM). Let's find one in the Foundry models catalog.
 
@@ -69,7 +98,7 @@ At the heart of every AI agent, there's a large language model (LLM). Let's find
 
     ![Screenshot of the model playground.](./media/0-model-playground.png)
 
-## Chat with the model
+### Chat with the model
 
 You can use the playground to explore the model by chatting with it.
 
@@ -86,7 +115,7 @@ You can use the playground to explore the model by chatting with it.
 1. Enter a new prompt, such as `Tell me about the ELIZA chatbot.` and view the response.
 1. Continue the conversation with prompts such as `How does it compare with modern LLMs?`.
 
-## Specify instructions in a *system prompt*
+### Specify instructions in a *system prompt*
 
 To support specific use cases, you should use a *system prompt* to provide the model with instructions that guide its responses. You can use the system prompt to give the model a specific focus or role, and provide guidelines about format, style, and constraints about what the model should and should not include in its responses.
 
@@ -103,7 +132,7 @@ To support specific use cases, you should use a *system prompt* to provide the m
 
 1. Try asking an "off-topic" question, such as `What's the capital of Spain?`; and view the response.
 
-## Add a web_search tool
+### Add a web_search tool
 
 So far, the model has answered questions based on the data with which it was trained. While this is useful, that leaves out a lot of current information on the web; which might help the model give more relevant answers.
 
@@ -115,7 +144,7 @@ We can use *tools* to give models access to external data sources, and to perfor
 
     The model should have searched the Web for vintage computer stores near the specific city.
 
-## Save the model configuration as an agent
+### Save the model configuration as an agent
 
 While you can implement generative AI apps using a standalone model, to create a fully agentic AI experience, you need to encapsulate the model, its instructions, and any tool configuration that provides additional functionality, in an *agent*.
 
@@ -158,7 +187,7 @@ While you can implement generative AI apps using a standalone model, to create a
 
     The response should indicate that the agent is "aware" of its role as a computing historian.
 
-## Preview the agent
+### Preview the agent
 
 Now you have a working agent, you can preview it in a basic web chat application.
 
@@ -172,7 +201,7 @@ Now you have a working agent, you can preview it in a basic web chat application
 
 ## Summary
 
-In this exercise, you explored how to deploy and chat with a generative AI model in Microsoft Foundry portal. You then configured instructions and tools before saving the model as an agent.
+In this lab, you explored how to deploy and chat with a generative AI model in Microsoft Foundry portal. You then configured instructions and tools before saving the model as an agent.
 
 ## Next steps
 
