@@ -16,7 +16,7 @@ In this exercise, you'll use Microsoft Foundry to start developing an AI agent t
 This exercise should take approximately **20** minutes to complete.
 
 
-<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080"><iframe src="https://share.synthesia.io/embeds/videos/904e700e-4549-42ac-8056-7e4dfd505966" loading="lazy" title="Synthesia video player - AI Concepts 02" allowfullscreen allow="encrypted-media; fullscreen; microphone; screen-wake-lock;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
+<div style="position: relative; overflow: hidden; aspect-ratio: 1920/1080; width: 100%; max-width: 800px;"><iframe src="https://share.synthesia.io/embeds/videos/904e700e-4549-42ac-8056-7e4dfd505966" loading="lazy" title="Synthesia video player - AI Concepts 02" allowfullscreen allow="encrypted-media; fullscreen; microphone; screen-wake-lock;" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0; overflow:hidden;"></iframe></div>
 
 ## Create a Microsoft Foundry project
 
