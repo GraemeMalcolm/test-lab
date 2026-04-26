@@ -26,6 +26,7 @@ Before creating an agent, let's set some context about *generative* AI and how i
 {% endcapture %}
 
 {% capture conceptual_overview_text %}
+
 ### Generative AI
 
 *Generative AI* is a branch of AI that enables software applications to generate new content; often natural language dialogs, but also images, video, code, and other formats.
@@ -63,7 +64,6 @@ With these capabilities, AI agents can take on the role of digital assistants th
 
 {% include lab-tabbed-video-text.html id="concept-overview" aria_label="Conceptual overview content" video_html=conceptual_overview_video text_markdown=conceptual_overview_text %}
 
-
 ## Exercise: Create an agent with Microsoft Foundry
 
 Now it's your turn. In this exercise, you'll use Microsoft Foundry to start developing an AI agent that provides information and expertise on the history of computing.
@@ -72,11 +72,23 @@ Now it's your turn. In this exercise, you'll use Microsoft Foundry to start deve
 
 {% capture hosted_lab_markdown %}
 
-Hosted lab link here.
+This exercise is available in a hosted lab environment, provided by our partner *Skillable*.
+
+[![Screenshot of Skillable lab environment](./media/skillable.png)](https://labondemand.com/LabProfile/214910){:target="_blank"}
+
+### [Launch Hosted Lab](https://labondemand.com/LabProfile/214910){:target="_blank"}
 
 {% endcapture %}
 
 {% capture own_setup_markdown %}
+Use these instructions to complete the exercise in your own Azure subscription.
+
+### Before you start
+
+Use the [setup guide](./00-setup.md){:target="_blank"} to prepare your environment.
+
+When you're ready, follow the instructions below to create your first agent.
+
 ### Create a Microsoft Foundry project
 
 Microsoft Foundry uses *projects* to organize models, resources, data, and other assets used to develop an AI solution.
@@ -226,6 +238,6 @@ In this lab, you explored how to deploy and chat with a generative AI model in M
 
 ## Next steps
 
-This is the first in a series of lab exercises; save your work and continue to the next exercise if you're ready.
+This is the first in a series of lab exercises; save your work and continue to the [next exercise](./02-continue-in-vscode.md) if you're ready.
 
 > **Tip**: If you have finished exploring Microsoft Foundry, you should delete the Azure resources created in this exercise to avoid unnecessary utilization charges.
