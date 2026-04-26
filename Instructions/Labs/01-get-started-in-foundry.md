@@ -26,6 +26,10 @@ Before creating an agent, let's set some context about *generative* AI and how i
 {% endcapture %}
 
 {% capture conceptual_overview_text %}
+![Picture of Anton](./media/anton-icon.png)
+
+Hi! I'm Anton - your guide to developing AI apps and agents!
+
 *Generative AI* is a branch of AI that enables software applications to generate new content; often natural language dialogs, but also images, video, code, and other formats.
 
 For example, a computing history web site could provide a generative AI chat interface into which users can enter questions about key figures, technologies, and events in the history of computing.
