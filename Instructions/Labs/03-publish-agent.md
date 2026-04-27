@@ -4,17 +4,45 @@ lab:
   description: Publish your agent and use it in a client application.
   level: 200
   duration: 20 minutes
-  islab: true
+  islab: false
 ---
 
 # Publish and use your agent
 
+{% capture vscode_overview_video %}
+Video goes here
+{% endcapture %}
+
+{% capture vscode_overview_text %}
+Text goes here
+{% endcapture %}
+
 ## Exercise: Publish and use your agent
 
 {% capture publish_hosted_markdown %}
+
+This exercise is available in a hosted lab environment, provided by our partner *Skillable*.
+
+[![Screenshot of Skillable lab environment](./media/skillable.png)](https://labondemand.com/LabProfile/214910){:target="_blank"}
+
+### [Launch Hosted Lab](https://labondemand.com/LabProfile/214910){:target="_blank"}
+
+{% endcapture %}
+
+
+{% capture publish_own_setup_markdown %}
+
+Use these instructions to complete the exercise in your own Azure subscription and development environment.
+
+### Before you start
+
+Use the [setup guide](./00-setup.md){:target="_blank"} to prepare your environment. Then complete the [previous lab](./02-continue-in-vscode.md) in this series.
+
+When you're ready, follow the instructions below to create a client app for your first agent.
+
 In the previous exercises, you used Microsoft Foundry and Visual Studio Code to develop a computing history agent.
 
-Now you're ready to publish the agent to its own endpoint, and consume it in an application.
+Now you're ready to consume it in an application.
 
 This exercise should take approximately **20** minutes to complete.
 
@@ -141,27 +169,6 @@ Now you're ready to test the app with your agent.
 1. Enter a prompt, such as `What was ENIAC?` and view the response.
 1. Follow up with a second prompt, such as `How does it compare with COLOSSUS?`
 1. When you're finished testing the app, in the terminal pane, enter **CTRL+C** to stop the local web server.
-{% endcapture %}
-
-{% capture publish_own_setup_markdown %}
-Use this tab if you prefer to follow the same workflow with your own environment, subscription choices, and local tooling setup.
-
-### Suggested adaptations
-
-- Use your preferred Azure subscription, resource group naming conventions, and region choices.
-- Choose your preferred programming language and framework for the client application.
-- Follow your organization's governance requirements for agent deployment, authentication, and API management.
-
-### Keep parity with hosted lab outcomes
-
-By the end of this section, you should still be able to:
-
-- Publish an agent from Microsoft Foundry to a production endpoint.
-- Configure a client application to authenticate and connect to your agent endpoint.
-- Submit prompts to your agent and display responses in an application.
-- Manage conversation history in a multi-turn interaction.
-
-If you're unsure how to adapt a specific step, use the *Ask Anton* panel for guidance.
 {% endcapture %}
 
 {% assign publish_hosted_html = publish_hosted_markdown | markdownify %}
