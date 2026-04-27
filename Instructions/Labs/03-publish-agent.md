@@ -73,13 +73,9 @@ So far you've developed and tested your agent within a Foundry project. To take 
 1. In a web browser, open [Microsoft Foundry](https://ai.azure.com){:target="_blank"} at `https://ai.azure.com` and sign in using your Azure credentials.
 1. Switch to the **New Foundry** view if necessary, and open the project in which you created the *computing-historian* agent.
 1. Select the **Build** menu, and in the **Agents** page, select the **computing-historian** agent.
-1. In the **Publish** drop-down list, if your agent is not already published, select **Publish agent** and publish the latest version of your agent.
+1. In the **Publish** drop-down list, view the published agent details. In particular, note the **Responses API endpoint** that clients apps can use to connect to your agent. You'll need this later!
 
     > **Tip**: Do <u>not</u> publish your agent to Teams and Microsoft 365 in ths exercise.
-
-1. View the published agent details. In particular, note the **Responses API endpoint** that clients apps can use to connect to your agent. You'll need this later!
-
-    > **Tip**: You can view the published agent details in the **Publish** drop-down list at any time.
 
 ### Configure a client application in Visual Studio Code
 
