@@ -4,7 +4,7 @@ lab:
   description: Publish your agent and use it in a client application.
   level: 200
   duration: 20 minutes
-    islab: true
+  islab: false
 ---
 
 # Publish and use your agent
@@ -12,6 +12,7 @@ lab:
 {% include lab-tabs-assets.html %}
 
 {% capture publish_video %}
+(VIDEO TO BE ADDED)
 <figure style="margin: 0; max-width: 800px;">
     <img src="./media/client-app.png" alt="Screenshot of the client application for the published agent." style="width: 100%; height: auto; display: block; border-radius: 0.5rem;" />
     <figcaption style="margin-top: 0.75rem; color: #57606a; font-size: 0.95rem;">After publishing your agent, you can connect a client application to its Responses API endpoint and chat with it outside the Foundry playground.</figcaption>
