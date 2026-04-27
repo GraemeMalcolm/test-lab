@@ -4,6 +4,4 @@ This repo contains a proof-of-concept for an "all-in-one" interactive lab experi
 
 It uses a custom theme for GitHub pages that includes a basic mode chat app.
 
-Videos are hosted in Synthesia.
-
-Labs are hosted in Skillable.
+Videos are hosted in Synthesia. Labs are hosted in Skillable.
