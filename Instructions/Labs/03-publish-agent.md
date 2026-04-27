@@ -9,6 +9,14 @@ lab:
 
 # Publish and use your agent
 
+In the previous labs, you created and refined a computing history agent in Microsoft Foundry and Visual Studio Code. In this final lab, you move from development into consumption by publishing the agent and connecting it to a simple client app.
+
+Publishing gives your agent a dedicated endpoint that applications can call by using the OpenAI Responses API. That means you can move beyond playground testing and start integrating the agent into a real user experience.
+
+In this lab, you'll configure and complete a Python client application that sends prompts to your agent's dedicated endpoint.
+
+This exercise should take approximately **20** minutes to complete.
+
 {% include lab-tabs-assets.html %}
 
 {% capture publish_video %}
@@ -20,17 +28,9 @@ lab:
 {% endcapture %}
 
 {% capture publish_text %}
+(TEXT IN DEVELOPMENT)
 
-In the previous exercises, you created and refined a computing history agent in Microsoft Foundry and Visual Studio Code. In this final lab, you move from development into consumption by publishing the agent and connecting it to a simple client app.
-
-Publishing gives your agent a dedicated endpoint that applications can call by using the OpenAI Responses API. That means you can move beyond playground testing and start integrating the agent into a real user experience.
-
-In this lab, you'll work through two connected tasks:
-
-- Publish your agent from Microsoft Foundry.
-- Configure and complete a Python client application that sends prompts to your published endpoint.
-
-The result is a small but realistic end-to-end solution: an agent built in Foundry, exposed through a published endpoint, and consumed by an application that users can interact with locally.
+An agent built in Foundry is exposed through a published endpoint, and consumed by an application that users can interact with locally.
 
 ![Screenshot of the client application for the published agent.](./media/client-app.png)
 
@@ -65,8 +65,6 @@ When you're ready, follow the instructions below to create a client app for your
 In the previous exercises, you used Microsoft Foundry and Visual Studio Code to develop a computing history agent.
 
 Now you're ready to consume it in an application.
-
-This exercise should take approximately **20** minutes to complete.
 
 ### Publish your agent
 
