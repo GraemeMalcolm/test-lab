@@ -9,11 +9,11 @@ lab:
 
 # Publish and use your agent
 
-{% capture vscode_overview_video %}
+{% capture publish_video %}
 Video goes here
 {% endcapture %}
 
-{% capture vscode_overview_text %}
+{% capture publish_text %}
 Text goes here
 {% endcapture %}
 
