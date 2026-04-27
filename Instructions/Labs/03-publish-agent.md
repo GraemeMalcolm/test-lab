@@ -4,18 +4,39 @@ lab:
   description: Publish your agent and use it in a client application.
   level: 200
   duration: 20 minutes
-  islab: false
+    islab: true
 ---
 
 # Publish and use your agent
 
+{% include lab-tabs-assets.html %}
+
 {% capture publish_video %}
-Video goes here
+<figure style="margin: 0; max-width: 800px;">
+    <img src="./media/client-app.png" alt="Screenshot of the client application for the published agent." style="width: 100%; height: auto; display: block; border-radius: 0.5rem;" />
+    <figcaption style="margin-top: 0.75rem; color: #57606a; font-size: 0.95rem;">After publishing your agent, you can connect a client application to its Responses API endpoint and chat with it outside the Foundry playground.</figcaption>
+</figure>
 {% endcapture %}
 
 {% capture publish_text %}
-Text goes here
+
+In the previous exercises, you created and refined a computing history agent in Microsoft Foundry and Visual Studio Code. In this final lab, you move from development into consumption by publishing the agent and connecting it to a simple client app.
+
+Publishing gives your agent a dedicated endpoint that applications can call by using the OpenAI Responses API. That means you can move beyond playground testing and start integrating the agent into a real user experience.
+
+In this lab, you'll work through two connected tasks:
+
+- Publish your agent from Microsoft Foundry.
+- Configure and complete a Python client application that sends prompts to your published endpoint.
+
+The result is a small but realistic end-to-end solution: an agent built in Foundry, exposed through a published endpoint, and consumed by an application that users can interact with locally.
+
+![Screenshot of the client application for the published agent.](./media/client-app.png)
+
+By the end of the exercise, you'll have a clearer picture of how agent development moves from prototyping in tools like Foundry and Visual Studio Code into application integration.
 {% endcapture %}
+
+{% include lab-tabbed-video-text.html id="publish-overview" aria_label="Overview content" video_html=publish_video text_markdown=publish_text %}
 
 ## Exercise: Publish and use your agent
 
