@@ -17,7 +17,7 @@ Now you're ready to continue developing your agent using the Foundry integration
 
 This lab should take approximately **30** minutes to complete.
 
-## Conceptual overview: Visual Studio Code and Microoft Foundry
+## Conceptual overview: Visual Studio Code and Microsoft Foundry
 
 Let's start by exploring some of the ways that Visual Studio Code empowers developers to create AI agents in Microsoft Foundry.
 
